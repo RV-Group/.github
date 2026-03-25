@@ -13,10 +13,10 @@
     
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.2s" fill="freeze" />
-      <text x="0" y="0">╔══════════════════════════════════════╗</text>
-      <text x="0" y="20">║&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;RVG TERMINAL v1.0&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;║</text>
-      <text x="0" y="40">║ Last login: Thu Jan 01 00:00:00 1970 ║</text>
-      <text x="0" y="60">╚══════════════════════════════════════╝</text>
+      <text x="0" y="0" textLength="330" lengthAdjust="spacingAndGlyphs" style="white-space: pre;">╔══════════════════════════════════════╗</text>
+      <text x="0" y="20" textLength="330" lengthAdjust="spacingAndGlyphs" style="white-space: pre;">║           RVG TERMINAL v1.0          ║</text>
+      <text x="0" y="40" textLength="330" lengthAdjust="spacingAndGlyphs" style="white-space: pre;">║ Last login: Thu Jan 01 00:00:00 1970 ║</text>
+      <text x="0" y="60" textLength="330" lengthAdjust="spacingAndGlyphs" style="white-space: pre;">╚══════════════════════════════════════╝</text>
       <line x1="0" y1="75" x2="740" y2="75" stroke="#1f3b1f" stroke-width="1" />
     </g>
 
@@ -30,21 +30,10 @@
       <text x="0" y="130">&gt; <tspan fill="#aaffaa">Loading user data...</tspan></text>
       
       <text x="195" y="130">
-        <tspan opacity="1">[████&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;] 20%
-          <animate attributeName="opacity" from="1" to="0" dur="0.01s" begin="1.7s" fill="freeze" />
-        </tspan>
-        <tspan x="195" opacity="0">[████████&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;] 40%
-          <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.7s" fill="freeze" />
-          <animate attributeName="opacity" from="1" to="0" dur="0.01s" begin="1.9s" fill="freeze" />
-        </tspan>
-        <tspan x="195" opacity="0">[██████████████&#160;&#160;&#160;&#160;&#160;&#160;] 70%
-          <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.9s" fill="freeze" />
-          <animate attributeName="opacity" from="1" to="0" dur="0.01s" begin="2.2s" fill="freeze" />
-        </tspan>
-        <tspan x="195" opacity="0">
-          [████████████████████] 100%
-          <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="2.2s" fill="freeze" />
-        </tspan>
+        <tspan opacity="1"><tspan textLength="182" lengthAdjust="spacingAndGlyphs" style="white-space: pre;">[████                ]</tspan> 20%<animate attributeName="opacity" from="1" to="0" dur="0.01s" begin="1.7s" fill="freeze" /></tspan>
+        <tspan x="195" opacity="0"><tspan textLength="182" lengthAdjust="spacingAndGlyphs" style="white-space: pre;">[████████            ]</tspan> 40%<animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.7s" fill="freeze" /><animate attributeName="opacity" from="1" to="0" dur="0.01s" begin="1.9s" fill="freeze" /></tspan>
+        <tspan x="195" opacity="0"><tspan textLength="182" lengthAdjust="spacingAndGlyphs" style="white-space: pre;">[██████████████      ]</tspan> 70%<animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.9s" fill="freeze" /><animate attributeName="opacity" from="1" to="0" dur="0.01s" begin="2.2s" fill="freeze" /></tspan>
+        <tspan x="195" opacity="0"><tspan textLength="182" lengthAdjust="spacingAndGlyphs" style="white-space: pre;">[████████████████████]</tspan> 100%<animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="2.2s" fill="freeze" /></tspan>
       </text>
     </g>
 
@@ -59,11 +48,11 @@
     </g>
     <g opacity="0" transform="translate(20, 0)">
       <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="3.2s" fill="freeze" />
-      <text x="0" y="230">┌─────────────────────────────────┐</text>
-      <text x="0" y="250">│&#160;&#160;OS:&#160;&#160;&#160;&#160;&#160;&#160;GitHub Profile OS&#160;&#160;&#160;&#160;&#160;│</text>
-      <text x="0" y="270">│&#160;&#160;SHELL:&#160;&#160;&#160;RVShell 1.0&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;│</text>
-      <text x="0" y="290">│&#160;&#160;TERM:&#160;&#160;&#160;&#160;xterm-256color&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;│</text>
-      <text x="0" y="310">└─────────────────────────────────┘</text>
+      <text x="0" y="230" textLength="288" lengthAdjust="spacingAndGlyphs" style="white-space: pre;">┌─────────────────────────────────┐</text>
+      <text x="0" y="250" textLength="288" lengthAdjust="spacingAndGlyphs" style="white-space: pre;">│  OS:      GitHub Profile OS     │</text>
+      <text x="0" y="270" textLength="288" lengthAdjust="spacingAndGlyphs" style="white-space: pre;">│  SHELL:   RVShell 1.0           │</text>
+      <text x="0" y="290" textLength="288" lengthAdjust="spacingAndGlyphs" style="white-space: pre;">│  TERM:    xterm-256color        │</text>
+      <text x="0" y="310" textLength="288" lengthAdjust="spacingAndGlyphs" style="white-space: pre;">└─────────────────────────────────┘</text>
     </g>
 
     <g opacity="0">
@@ -83,9 +72,9 @@
     </g>
     <g opacity="0" transform="translate(20, 0)">
       <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="5.2s" fill="freeze" />
-      <text x="0" y="500"><tspan fill="#ffaa44">[RW Relay]</tspan>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ 100%</text>
-      <text x="0" y="520"><tspan fill="#44aaff">[SWD]</tspan>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ 95%</text>
-      <text x="0" y="540"><tspan fill="#eccf26">[Relay Project]</tspan>&#160;&#160;&#160;&#160;&#160;&#160;▰▰▰ 15%</text>
+      <text x="0" y="500"><tspan fill="#ffaa44">[RW Relay]</tspan><tspan style="white-space: pre;">           ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ 100%</tspan></text>
+      <text x="0" y="520"><tspan fill="#44aaff">[SWD]</tspan><tspan style="white-space: pre;">                ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ 95%</tspan></text>
+      <text x="0" y="540"><tspan fill="#eccf26">[Relay Project]</tspan><tspan style="white-space: pre;">      ▰▰▰ 15%</tspan></text>
     </g>
 
     <g opacity="0">
